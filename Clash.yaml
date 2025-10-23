@@ -327,7 +327,7 @@ rule-providers:
 # 规则部分建议域名规则在前，ip规则在后
 # ip规则尽量使用no-resolve，减少需要走代理的域名在本地解析的情况
 rules:
-  - RULE-SET,PROXY,Proxy
+  - RULE-SET,PROXY,PROXY
   - RULE-SET,private,DIRECT
   - RULE-SET,icloud,Apple
   - RULE-SET,apple,Apple
