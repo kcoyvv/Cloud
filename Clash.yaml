@@ -128,7 +128,7 @@ proxy-groups:
 
   - name: 直连
     type: select
-  hidden: true
+    hidden: true
     proxies:
       - DIRECT
 
