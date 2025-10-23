@@ -138,7 +138,12 @@ proxy-groups:
       - 直连
 
   - name: 香港
-    type: select
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    include-all: true
+    hidden: true
     use:
       - Sub1
       # 当proxy-provider配置多个订阅时，使用use下方格式引用，这里为只有一个订阅的情况
@@ -148,7 +153,12 @@ proxy-groups:
     filter: "HK|Hong|香港|港|急速"
 
   - name: 狮城
-    type: select
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    include-all: true
+    hidden: true
     use:
       - Sub1
       # - Sub2
@@ -156,7 +166,12 @@ proxy-groups:
     filter: "SG|Singapore|狮城|新加坡"
 
   - name: 日本
-    type: select
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    include-all: true
+    hidden: true
     use:
       - Sub1
       # - Sub2
@@ -164,7 +179,12 @@ proxy-groups:
     filter: "JP|japan|日本"
 
   - name: 美国
-    type: select
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    include-all: true
+    hidden: true
     use:
       - Sub1
       # - Sub2
@@ -172,7 +192,12 @@ proxy-groups:
     filter: "US|United|美|美国"
   
   - name: 台湾
-    type: select
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    include-all: true
+    hidden: true
     use:
       - Sub1
       # - Sub2
@@ -180,7 +205,12 @@ proxy-groups:
     filter: "台湾|TW|TaiWan|台"
 
   - name: 韩国
-    type: select
+    interval: 120
+    lazy: true
+    tolerance: 50
+    type: url-test
+    include-all: true
+    hidden: true
     use:
       - Sub1
       # - Sub2
