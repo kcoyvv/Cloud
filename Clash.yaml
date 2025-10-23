@@ -127,7 +127,7 @@ proxy-groups:
       - 韩国
 
   - name: 直连
-    type: select
+    type: url-test
     hidden: true
     proxies:
       - DIRECT
