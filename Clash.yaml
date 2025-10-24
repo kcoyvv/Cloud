@@ -180,13 +180,6 @@ proxy-groups:
     filter: "^(?!.*(?:Hong|HK|TW|KR|Taiwan|🇨🇳|客户|http|USA|Japan|Singapore|USA|韩国|香港|日本|新加坡|美国)).*"
 
 
-  # 在线订阅,有多个机场按格式书写在下面
-use: &use
-  type: select
-  use:
-    - 流量光
-#    - 本地配置
-
 # 订阅链接
 # 对于订阅来说，path 为选填项，但建议启用
 # 本地配置可以只填 path
