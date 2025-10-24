@@ -177,7 +177,7 @@ proxy-groups:
     include-all: true
     hidden: true
     use:
-      - su1
+      - sub1
       # - Sub2
       # - Sub3
     filter: "US|United|🇺🇸|美|美国"
