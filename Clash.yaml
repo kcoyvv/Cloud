@@ -224,7 +224,7 @@ proxy-providers:
   Sub1:
     <<: *http
     path: ./proxies/Sub1.yaml
-    url: https://sub01.fkknet.cn/api/v1/client/subscribe?token=d2c349df7a4e82da3b2870669e8ec11e
+    url: https://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=7ec3e41ef6c2ec767145fc02bbbf06e1
 
   #Sub2:
     #<<: *http
