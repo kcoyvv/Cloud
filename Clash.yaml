@@ -136,7 +136,7 @@ proxy-groups:
     include-all: true
     hidden: true
     use:
-      - Sub1
+      - 流量光
       # 当proxy-provider配置多个订阅时，使用use下方格式引用，这里为只有一个订阅的情况
       # - Sub2
       # - Sub3
@@ -151,7 +151,7 @@ proxy-groups:
     include-all: true
     hidden: true
     use:
-      - Sub1
+      - 流量光
       # - Sub2
       # - Sub3
     filter: "SG|Singapore|🇸🇬|狮城|新加坡"
@@ -164,7 +164,7 @@ proxy-groups:
     include-all: true
     hidden: true
     use:
-      - Sub1
+      - 流量光
       # - Sub2
       # - Sub3
     filter: "JP|japan|🇯🇵|日本"
@@ -177,7 +177,7 @@ proxy-groups:
     include-all: true
     hidden: true
     use:
-      - Sub1
+      - 流量光
       # - Sub2
       # - Sub3
     filter: "US|United|🇺🇸|美|美国"
@@ -190,7 +190,7 @@ proxy-groups:
     include-all: true
     hidden: true
     use:
-      - Sub1
+      - 流量光
       # - Sub2
       # - Sub3
     filter: "台湾|TW|TaiWan|台"
@@ -203,7 +203,7 @@ proxy-groups:
     include-all: true
     hidden: true
     use:
-      - Sub1
+      - 流量光
       # - Sub2
       # - Sub3
     filter: "韩国|🇰🇷|KR|Korea|韩"
@@ -211,7 +211,7 @@ proxy-groups:
   - name: 其他
     type: select
     use:
-      - Sub1
+      - 流量光
       # - Sub2
       # - Sub3
     # 筛选除日美新港外的节点，可自行按格式添加
@@ -221,15 +221,15 @@ proxy-groups:
 # proxy-provider 可参考meta内核文档 https://clash-meta.wiki/config/proxy-providers
 proxy-providers:
   # 在线订阅,有多个机场按格式书写在下面
-  Sub1:
+  流量光:
     <<: *http
-    path: ./proxies/Sub1.yaml
+    path: ./proxies/流量光.yaml
     url: https://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=7ec3e41ef6c2ec767145fc02bbbf06e1
 
   #Sub2:
     #<<: *http
     #path: ./proxies/Sub2.yaml
-    #url: https://dyue-01.windmi.xyz/api/v1/client/subscribe?token=d9a9fe451422ca3937657c641ffc560c
+    #url: https://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=7ec3e41ef6c2ec767145fc02bbbf06e1
   #
   # 本地节点，路径可填写绝对路径或者相对路径(为clash工作目录下)
   #Sub3:
