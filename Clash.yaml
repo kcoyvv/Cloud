@@ -136,7 +136,7 @@ proxy-groups:
     include-all: true
     hidden: true
     use:
-      - sub1
+      - Sub1
       # 当proxy-provider配置多个订阅时，使用use下方格式引用，这里为只有一个订阅的情况
       # - Sub2
       # - Sub3
@@ -151,7 +151,7 @@ proxy-groups:
     include-all: true
     hidden: true
     use:
-      - sub1
+      - Sub1
       # - Sub2
       # - Sub3
     filter: "SG|Singapore|🇸🇬|狮城|新加坡"
@@ -164,7 +164,7 @@ proxy-groups:
     include-all: true
     hidden: true
     use:
-      - sub1
+      - Sub1
       # - Sub2
       # - Sub3
     filter: "JP|japan|🇯🇵|日本"
@@ -177,7 +177,7 @@ proxy-groups:
     include-all: true
     hidden: true
     use:
-      - sub1
+      - Sub1
       # - Sub2
       # - Sub3
     filter: "US|United|🇺🇸|美|美国"
@@ -190,7 +190,7 @@ proxy-groups:
     include-all: true
     hidden: true
     use:
-      - sub1
+      - Sub1
       # - Sub2
       # - Sub3
     filter: "台湾|TW|TaiWan|台"
@@ -203,7 +203,7 @@ proxy-groups:
     include-all: true
     hidden: true
     use:
-      - sub1
+      - Sub1
       # - Sub2
       # - Sub3
     filter: "韩国|🇰🇷|KR|Korea|韩"
