@@ -141,7 +141,7 @@ proxy-groups:
       # - Sub2
       # - Sub3
     # filter使用正则表达式去筛选节点
-    filter: "HK|Hong|香港|港|急速"
+    filter: "HK|Hong|🇭🇰|香港|港|急速"
 
   - name: 狮城
     interval: 120
@@ -154,7 +154,7 @@ proxy-groups:
       - Sub1
       # - Sub2
       # - Sub3
-    filter: "SG|Singapore|狮城|新加坡"
+    filter: "SG|Singapore|🇸🇬|狮城|新加坡"
 
   - name: 日本
     interval: 120
@@ -167,7 +167,7 @@ proxy-groups:
       - Sub1
       # - Sub2
       # - Sub3
-    filter: "JP|japan|日本"
+    filter: "JP|japan|🇯🇵|日本"
 
   - name: 美国
     interval: 120
@@ -180,7 +180,7 @@ proxy-groups:
       - Sub1
       # - Sub2
       # - Sub3
-    filter: "US|United|美|美国"
+    filter: "US|United|🇺🇸|美|美国"
   
   - name: 台湾
     interval: 120
@@ -206,7 +206,7 @@ proxy-groups:
       - Sub1
       # - Sub2
       # - Sub3
-    filter: "韩国|KR|Korea|韩"
+    filter: "韩国|🇰🇷|KR|Korea|韩"
 
   - name: 其他
     type: select
@@ -224,7 +224,7 @@ proxy-providers:
   Sub1:
     <<: *http
     path: ./proxies/Sub1.yaml
-    url: 
+    url: https://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=7ec3e41ef6c2ec767145fc02bbbf06e1
 
   #Sub2:
     #<<: *http
