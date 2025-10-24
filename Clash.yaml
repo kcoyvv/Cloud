@@ -224,7 +224,7 @@ proxy-providers:
   Sub1:
     <<: *http
     path: ./proxies/Sub1.yaml
-    url: https://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=7ec3e41ef6c2ec767145fc02bbbf06e1
+    url: 
 
   #Sub2:
     #<<: *http
