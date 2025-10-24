@@ -221,9 +221,9 @@ proxy-groups:
 # proxy-provider 可参考meta内核文档 https://clash-meta.wiki/config/proxy-providers
 proxy-providers:
   # 在线订阅,有多个机场按格式书写在下面
-  sub1:
+  Sub1:
     <<: *http
-    path: ./proxies/sub1.yaml
+    path: ./proxies/Sub1.yaml
     url: https://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=7ec3e41ef6c2ec767145fc02bbbf06e1
 
   #Sub2:
