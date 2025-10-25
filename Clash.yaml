@@ -193,7 +193,7 @@ proxy-groups:
       - A
       # - Sub2
       # - Sub3
-    filter: "台湾|TW|Taiwan|台"
+    filter: "台湾|TW|Tai|TaiWan|台"
 
   - name: 韩国
     interval: 120
@@ -215,7 +215,7 @@ proxy-groups:
       # - Sub2
       # - Sub3
     # 筛选除日美新港外的节点，可自行按格式添加
-    filter: "^(?!.*(?:Hong|HK|TW|KR|Korea|Taiwan|🇨🇳|🇰🇷|🇯🇵|🇺🇸|🇸🇬|客户|http|USA|Japan|Singapore|USA|韩国|香港|日本|新加坡|美国)).*"
+    filter: "^(?!.*(?:Hong|HK|TW|KR|Taiwan|🇨🇳|客户|http|USA|Japan|Singapore|USA|韩国|香港|日本|新加坡|美国)).*"
 
 
 # proxy-provider 可参考meta内核文档 https://clash-meta.wiki/config/proxy-providers
@@ -226,6 +226,15 @@ proxy-providers:
     path: ./proxies/A.yaml
     url: "https://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=7ec3e41ef6c2ec767145fc02bbbf06e1"
 
+  #Sub2:
+    #<<: *http
+    #path: ./proxies/Sub2.yaml
+    #url: https://rgergergergerg6555.saojc.xyz/api/v1/client/subscribe?token=7ec3e41ef6c2ec767145fc02bbbf06e1
+  #
+  # 本地节点，路径可填写绝对路径或者相对路径(为clash工作目录下)
+  #Sub3:
+    #<<: *file
+    #path: D:\OneDrive\Clash配置文件\Sub3.yaml
 
 # 可参考meta核文档 https://clash-meta.wiki/config/rules/rule-provider
 rule-providers:
